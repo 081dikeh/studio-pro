@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <a href="" class="logo"><img src="" alt="">Dani</a>
+        <a href="" id="help">Help Center</a>
+        <button class="header-right-btn" id="submit"> Submit a request</button>
+        <button class="header-right-btn" id="sign-in">Sign in</button>
+        <a href="" onclick="appear()"><img class="header-icons" src="images/search-zoom.png" id="open" ></a>
+        <img class="header-icons" src="images/menu-icon.png" alt="">
+      </div>
+
+      <div class="menu">
+        <button class="menu-btn"> Submit a request</button>
+        <hr>
+        <button class="menu-btn">Sign in</button>
+      </div>
+    </header>
+
+    <section class="search"> 
+      <div class="container">
+        <h1>How can we help?</h1>
+        <form role="search" class="search-box search-box--hero-unit" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="search" name="query" id="query" placeholder="Search" autocomplete="off" aria-label="Search">
+          <img src="https://cdn.iconfinder.com/stored_data/506896/128/png?token=1658351075-d8sUzr0glzgPlS7hIEnD2txO9fq5AQ0jDQ1agacvPtU%3D">
+        </form>      
+      </div>
+    </section>
+
+    <section class="list">
+      <div class="container">
+
+        <div class="lists">
+          <div class="list-img">
+            <img src="https://theme.zdassets.com/theme_assets/2197739/aed6500f4da41c641f3de5d96247eb6654e9c386.png" alt="">
+          </div>
+          <div>
+            <h2 class="title-head">Using Abstract</h2>
+            <p class="title-content">Abstract lets you manage, version, and document your designs in one place.</p>
+            <a href="">Learn More &#8594</a>
+          </div>
+        </div>
+
+        <div class="lists">
+          <div class="list-img">
+            <img src="https://theme.zdassets.com/theme_assets/2197739/91588b3d042df901d9b941ccbb57af4f151401c7.png" alt="">
+          </div>
+          <div>
+            <h2 class="title-head">Manage your account</h2>
+            <p class="title-content">Configure your account settings, such as your email, profile details, and password.</p>
+            <a href="">Learn More &#8594</a>
+          </div>
+        </div>
+
+        <div class="lists">
+          <div class="list-img">
+            <img src="https://theme.zdassets.com/theme_assets/2197739/50d0db451c0e1e66e1caddd142986fcf6792ca05.png" alt="">
+          </div>
+          <div>
+            <h2 class="title-head">Manage organizations, teams, and projects</h2>
+            <p class="title-content">Use Abstract organizations, teams, and projects to organize your people and your work.</p>
+            <a href="">Learn More &#8594</a>
+          </div>
+        </div>
+
+        <div class="lists">
+          <div class="list-img">
+            <img src="https://theme.zdassets.com/theme_assets/2197739/3e82d0126e97d7b7c60a611d4e11b3c278d33743.png" alt="">
+          </div>
+          <div>
+            <h2 class="title-head">Manage billing</h2>
+            <p class="title-content">Change subscriptions and payment details.</p>
+            <a href="">Learn More &#8594</a>
+          </div>
+        </div>
+
+        <div class="lists">
+          <div class="list-img">
+            <img src="https://theme.zdassets.com/theme_assets/2197739/7712592465ef5c7bf18f1c7cb16e19ab44eb81e3.png" alt="">
+          </div>
+          <div>
+            <h2 class="title-head">Authenticate to Abstract</h2>
+            <p class="title-content">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+            <a href="">Learn More &#8594</a>
+          </div>
+        </div>
+
+        <div class="lists">
+          <div class="list-img">
+            <img src="	https://theme.zdassets.com/theme_assets/2197739/dcc25d18e224d12621d74e545cc8bdd1b5685ca8.png" alt="">
+          </div>
+          <div>
+            <h2 class="title-head">Abstract support</h2>
+            <p class="title-content">Get in touch with a human.</p>
+            <a href="">Learn More &#8594</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+
+          <ul>
+            <li class="li-title title-head">Abstract</li>
+            <li><a href="">Start Trial</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Download</a></li>
+          </ul>
+
+          <ul>
+            <li class="li-title title-head">Resources</li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Release Notes</a></li>
+            <li><a href="">Status</a></li>
+          </ul>
+
+          <ul>
+            <li class="li-title title-head">Community</li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Dribble</a></li>
+            <li><a href="">Podcast</a></li>
+          </ul>
+
+          <ul>
+            <li class="li-title title-head">Company</li>
+            <li><a href="">About</a></li>
+            <li><a href="">Careers</a></li>
+            <li id="last-title"><a href="" >Legal</a></li>
+            <li class="li-title2 title-head">Contact Us</li>
+            <li><a href="">dani@info.com</a></li>
+          </ul>
+
+        </nav>
+
+        <div class="footer-copyright">
+          <p class="title-content footer-copy">&copy Copyright 2022</p>
+          <p class="title-content footer-copy">Dani project, frontend developer</p>
+          <p class="title-content footer-copy">All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="help-btn">&#63 Help</button>
+
+    <script type="module" src="/main.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
